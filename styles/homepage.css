@@ -1,0 +1,219 @@
+/* Main */
+
+main {
+	width: 960px;
+	margin-left: 100px;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	overflow-y: auto;
+	z-index: 0;
+	position: relative;
+	background-image: url("../images/citybackground.jpg");
+	background-size: cover;
+}
+
+/* Main -> Search Bar */
+
+#searchbar {
+	position: absolute;
+	margin-left: 270px;
+	margin-right: 270px;
+	top: 40px;
+	width: 260px;
+	height: 40px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+#searchbar form {
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+#searchbaritem {
+	width: 210px;
+	height: 30px;
+	font-size: 18px;
+	border-radius: 25px;
+	padding: 5px;
+	padding-left: 10px;
+	outline: none;
+}
+
+#search {
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+}
+
+/* Main -> Section */
+
+main .section {
+	width: 760px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 200px;
+	padding-bottom: 50px;
+	background-color: rgb(255, 255, 255, 0.8);
+	display: flex;
+	min-height: 100%;
+}
+
+.sectioncontentleft {
+	width: 420px;
+	padding: 20px;
+	text-align: center;
+}
+.sectioncontentleft .sectionheader {
+	color: darkred;
+}
+
+.sectioncontentright {
+	width: 260px;
+	padding: 20px;
+	overflow-y: auto;
+}
+
+.sectionheader {
+	font-size: 26px;
+	color: navy;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.sectionheader img {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	height: 40px;
+	width: 40px;
+}
+
+.sectioncontentleft .activitiessubsection {
+	border-radius: 25px;
+	width: 380px;
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: #089FD1;
+	color: black;
+	word-wrap: break-word;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.sectioncontentleft .updatessubsection {
+	border-radius: 30px;
+	width: 380px;
+	margin-bottom: 20px;
+	padding: 20px;
+	border: 2px solid #0EA11B;
+	color: black;
+	word-wrap: break-word;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background: white;
+}
+
+.sectioncontentright .subsection {
+	width: 240px;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #555;
+	color: #eee;
+	word-wrap: break-word;
+	position: relative;
+}
+
+.sectioncontentleft .subsection .formcontainer {
+	display: flex;
+}
+.sectioncontentleft .subsection .formcontainer form {
+	margin: 5px;
+}
+
+.sectioncontentleft .subsection .formcontainer .socialform {
+	display: flex;
+}
+.sectioncontentleft .subsection .formcontainer .socialform div {
+	color: black;
+	margin: 5px;
+	padding: 5px;
+	font-size: 14px;
+	background-color: white;
+}
+.sectioncontentleft .subsection .formcontainer .socialform div input {
+	margin: 0;
+	padding: 0;
+}
+
+.sectioncontentleft .subsection .formcontainer .socialform .socialinput {
+	padding: 5px;
+	border: 1px solid #333;
+	background-color: #eee;
+	color: navy;
+	display: none;
+}
+
+.sectioncontentleft .subsection .formcontainer .socialinputform {
+	padding: 10px;
+	background-color: white;
+	position: relative;
+}
+.sectioncontentleft .subsection .formcontainer .socialinputform .socialinput {
+	text-align: right;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+}
+
+.subsection a {
+	color: white;
+	text-decoration: underline;
+}
+.subsection a:hover {
+	color: gold;
+	cursor: pointer;
+}
+
+.connection {
+	display: flex;
+	position: relative;
+}
+.connection img {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	max-width: 30px;
+	max-height: 30px;
+}
+.connection img:hover {
+	background-color: red;
+	cursor: pointer;
+}
+
+/* Classes */
+
+/* Classes -> Header */
+
+.header {
+	flex-basis: 100%;
+	text-align: center;
+	width: 100%;
+	height: 5%;
+	font-family: "Courier New", "Times New Roman", serif;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-size: 28px;
+}
